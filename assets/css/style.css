@@ -79,7 +79,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #626249;
   overflow-y: auto;
 }
 
@@ -87,7 +87,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #878767;
 }
 
 #header .profile h1 {
@@ -109,7 +109,7 @@ h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: #878767;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -121,11 +121,11 @@ h6 {
   transition: 0.3s;
 }
 
-#header .profile .social-links a:hover {
+/* #header .profile .social-links a:hover {
   background: #149ddd;
   color: #fff;
   text-decoration: none;
-}
+} */
 
 #main {
   margin-left: 300px;
@@ -153,6 +153,7 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: "Raleway", sans-serif;
 }
 
 .nav-menu>ul>li {
@@ -168,14 +169,14 @@ h6 {
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .nav-menu a i,
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #878767;
 }
 
 .nav-menu a:hover,
@@ -183,14 +184,14 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #878767;
 }
 
 /* Mobile Navigation */
@@ -203,7 +204,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #878767;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -252,6 +253,7 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
+  padding-right: 300px;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -261,6 +263,7 @@ h6 {
 #hero p {
   color: #fff;
   margin-bottom: 50px;
+  padding-bottom: 200px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
@@ -269,7 +272,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #626249;
 }
 
 @media (min-width: 1024px) {
@@ -313,7 +316,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #626249 ;
 }
 
 .section-title h2::after {
@@ -322,7 +325,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #cdcd9d;
   bottom: 0;
   left: 0;
 }
@@ -337,7 +340,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #626249 ;
 }
 
 .about .content ul {
@@ -462,13 +465,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #626249;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #484836 ;
   position: relative;
 }
 
@@ -478,13 +481,13 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #626249;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #f3f3d4;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -512,7 +515,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #484836 ;
 }
 
 /*--------------------------------------------------------------
