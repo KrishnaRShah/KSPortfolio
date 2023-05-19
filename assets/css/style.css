@@ -154,6 +154,7 @@ h6 {
   padding: 0;
   list-style: none;
   font-family: "Raleway", sans-serif;
+  color: #fff;
 }
 
 .nav-menu>ul>li {
@@ -174,7 +175,7 @@ h6 {
 
 .nav-menu a i,
 .nav-menu a:focus i {
-  font-size: 24px;
+  font-size: 27px;
   padding-right: 8px;
   color: #878767;
 }
@@ -264,6 +265,7 @@ h6 {
   color: #fff;
   margin-bottom: 50px;
   padding-bottom: 200px;
+  padding-left: 3px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
@@ -316,7 +318,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #626249 ;
+  color: #46460b ;
 }
 
 .section-title h2::after {
@@ -340,7 +342,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #626249 ;
+  color: #46460b ;
 }
 
 .about .content ul {
@@ -465,13 +467,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #626249;
+  color: #46460b;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #484836 ;
+  border-left: 2px solid #878767 ;
   position: relative;
 }
 
@@ -515,7 +517,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #484836 ;
+  border: 2px solid #878767 ;
 }
 
 /*--------------------------------------------------------------
