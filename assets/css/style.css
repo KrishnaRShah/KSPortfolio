@@ -185,7 +185,6 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  /* color: #fff; */
 }
 
 .nav-menu a:hover i,
